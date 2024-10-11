@@ -1,0 +1,9 @@
+.calWrap{
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 5px;
+    background-color: #edebeb;
+    max-width: 290px;
+    margin: 0 auto;
+    padding: 10px 
+}
+

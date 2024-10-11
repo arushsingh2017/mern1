@@ -1,0 +1,9 @@
+.ItemNotFoundWrap{
+    max-width: 500px;
+    /* box-shadow: 0 0 10px #000; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    color: red;
+    border-radius: 10px;
+}

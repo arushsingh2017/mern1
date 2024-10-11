@@ -1,0 +1,206 @@
+
+/* banner css */
+.hero-slider {
+  position: relative;
+  padding-top: 10%;
+}
+/* .hero-slider::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  background-position: 82% 5%;
+} */
+
+.hero_wrap_inner {
+  max-width: 816px;
+  margin: 0 auto;
+  position: relative;
+}
+/* end */
+
+/* play css start */
+.play-wrap {position: relative;display: flex;align-items: center;}
+.play-btn-hover {width: 38px;height: 38px;border-radius: 50%;background: blue;align-items: center;display: flex;
+justify-content: center;opacity: 0;position: absolute;transition: all 0.5s;left: 6px;}
+.play-btn:after {width: 35px;height: 2px;background: #898989;content: '';left: 60px;top: 50%;position: absolute;  transition: all 0.5s;}
+.play-wrap span {padding-left: 60px;  transition: all 0.5s;}
+.play-wrap:hover .play-btn:after{width: 50px;background-color: #3786FF ; transform: scale(1.1);}
+.play-wrap:hover .try-txt{ color: #3786FF; padding-left: 70px; font-weight: 700;transform: scale(1.1);}
+.play-wrap:hover .play-btn-hover{ opacity: 1;}
+.play-wrap:hover .play-btn{opacity: 1; }
+/* end */
+
+
+.bp-client  img{   -webkit-filter: grayscale(1); filter: grayscale(1); opacity: 0.5; }
+.bp-client img:hover{-webkit-filter: grayscale(0); filter: grayscale(0); opacity: 1;}
+
+/* Maturity Insights css */
+.maturity-insights-left {
+  left: -9%;
+}
+.InsightTablist{background: #fff;
+  margin: 12px;
+  padding: 13px 20px;
+  border-radius: 12px;
+  box-shadow: 0 12px 20px #003B53;
+  border: 1px solid #ddd;
+  max-width: 265px;}
+/* end */
+
+/* why buildpiper */
+.why-inner-sec ul, .review-wrap ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+.why-inner-sec ul li {
+  border: 1px solid #fff;
+  margin: 10px;
+  max-width: 230px;
+  padding: 20px 16px;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 6px 6px 12px #8dbdcc40;
+}
+.why-inner-sec ul li span {
+  position: absolute;
+  right: 15px;
+}
+/* end */
+
+/* case study css start */
+.case-study-inner { max-width: 1183px; margin: 0 auto;}
+.client-logo {
+    min-height: 75px;
+    background: #fff;
+    /* max-width: 100px; */
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+    .case-study-inner ul {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        justify-content:space-between;
+    }
+   
+    .case-study-inner ul li {
+        position: relative;
+        width: 32%; overflow: hidden;
+        border-radius: 5px;
+        color: #fff;
+        transition: all 0.8s;
+        
+    }
+    .case-study-brif p{ min-height: 75px;}
+    .case-study-brif{ max-width: 300px; margin: 0 auto;}
+    .case-study-brif h5 {
+        min-height: 80px;
+    }
+    .client-thum-img{ position: relative; bottom: -6px; right: -60px; transition: all 0.5s;}
+    .case-study-inner ul li:hover .client-thum-img{ transform: scale(1.1)}
+    .case-study-inner ul li:hover{ background: #3786FF !important;}
+    .case-study-inner ul li:nth-child(1) {
+      background: #BA96FA;
+  }
+  .case-study-inner ul li:nth-child(2) {
+    background: #7ECE62;
+}
+.case-study-inner ul li:nth-child(3) {
+  background: #FB835C;
+}
+
+/* end */
+
+/* community css start*/
+
+.bg-shap2 {
+  width: 100%;
+  height: 100%;
+  background-color: #def2f8;
+  margin-top: 75px;
+  background-size: cover;
+  padding: 100px 0 0px 0;
+  background-position: 0% 84%;
+}
+
+/* end */
+
+/* feature css start */
+
+.bp-step ul{
+  list-style-type: none;
+}
+.bp-step ul li{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.bp-step ul li:nth-child(2n+1) .feature-left{
+  /* background-color: red; */
+  order: 2;
+}
+
+.feature-left{ width: 48%;}
+
+.feature-right {
+  width: 50%;
+}
+.feature-right>img {
+  width: 100%;
+}
+ul.f_list {
+  padding-left: 0;
+}
+ul.f_list li {
+  color: #505050;
+  line-height: 27px;
+  position: relative;
+  padding-left: 35px;
+}
+ul.f_list li:before {
+  width: 15px;
+  height: 15px;
+  border: 3px solid #3786ff;
+  position: absolute;
+  content: '';
+  border-radius: 50%;
+  background: #fea720;
+  left: 10px;
+}
+
+.content{ display: none;}
+.show-content{ display: block;}
+.active-tab{ color: #ce212a !important ;}
+
+/* .bp-step ul li:nth-child(2n+1){
+  border: 1px solid blue;
+  order: 2;
+} */
+
+.feature-list-data{ display: flex; align-items: center;}
+
+/* .feature-list-data .feature-left:nth-child(1){ border: 1px solid red;} */
+
+
+/* end */
+
+.client-logo{ background-color: red;}
+
+.ot-case-study-inner ul li:hover .ot-case-study-inner-box-img{ transform: scale(1.4);}
+
+.Appwrapper{ display: flex;}
+.Appwrapper-right {
+  width: 100%;
+}
+.badge-item{ margin: 3px;}
+
+#err_name, #err_pass{display: none;}

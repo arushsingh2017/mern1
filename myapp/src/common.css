@@ -1,0 +1,81 @@
+
+body{ font-family: Montserrat !important; font-weight: 600 !important; font-size: 15px !important; background-color: #def2f826;}
+.bp-bg-blue{background: rgba(55, 134, 255, 1);}
+.secondry-font{ font-family: Satisfy !important;}
+
+
+/* font size css */
+.bp-heading1{ font-size: 55px;}
+.bp-heading2{ font-size: 32px;}
+.bp-heading3{ font-size: 26px;}
+.bp-heading4{font-size: 16px; line-height: 24px;}
+.bp-para{font-size: 14px;}
+.bp-small-para{font-size: 12px; line-height: 20px;}
+.bp-font-18{ font-size: 18px !important; line-height: 22px;}
+
+
+/* font weight css */
+.bp-font-extra-bold{ font-weight: 800;}
+.bp-font-bold{ font-weight: 700;}
+.bp-font-normal{ font-weight: 600;}
+.bp-font-normal-light{ font-weight: 500;}
+
+/* text color */
+.txt-dark{color:#373737}
+.txt-blue{color:#3786FF}
+.txt-black{color:#000000}
+.txt-yellow{color:#FEA720}
+.txt-gray {color: #505050}
+.txt-white{ color: #ffffff;}
+.txt-white-8{ color: rgba(255, 255, 255, 0.8);}
+
+
+/* gap css */
+
+.bp-pt1{ padding-top: 10px !important;}
+.bp-pt2{ padding-top: 20px !important;}
+.bp-pt3{ padding-top: 30px;}
+.bp-pt4{ padding-top: 40px;}
+.bp-pt5{ padding-top: 50px;}
+.bp-pt100{ padding-top: 100px !important;}
+
+
+.bp-pb1{ padding-bottom: 10px;}
+.bp-pb2{ padding-bottom: 20px;}
+.bp-pb3{ padding-bottom: 30px;}
+.bp-pb4{ padding-bottom: 40px;}
+.bp-pb5{ padding-bottom: 50px;}
+.bp-pb100{ padding-bottom: 100px !important;}
+
+.bp-mt1{ margin-top: 10px !important;}
+.bp-mt2{ margin-top: 20px !important;}
+.bp-mt3{ margin-top: 30px;}
+.bp-mt4{ margin-top: 40px;}
+.bp-mt5{ margin-top: 50px;}
+.bp-mt100{ margin-top: 100px !important;}
+
+hr{ border-top: 1px solid rgba(0,0,0, 0.12) !important;}
+
+
+
+
+/* button css */
+
+
+
+a.bp-btn-primary{ border-radius: 4px; padding:12px 14px; border: 1px solid #E2E2E2; margin-top: 20px; text-decoration: none;}
+a.bp-btn-secondry{ border-radius: 4px; padding:12px 14px; background-color: #3786FF; color: #ffffff; text-decoration: none; transition: all 0.5s;}
+a.bp-btn-secondry:hover{ background-color: #000000; transition: all 0.5s;}
+
+
+
+
+.btn-wrap-section {
+    width: auto;    
+    display: flex;
+    align-items: center;
+    max-width: 410px;
+    margin: 0 auto;
+    position: relative;
+}
+
